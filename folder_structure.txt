@@ -1,0 +1,106 @@
+YoutubeClone
+│   README.md.txt
+│
+├───client
+│   │   .gitignore
+│   │   package-lock.json
+│   │   package.json
+│   │   README.md
+│   │
+│   ├───public
+│   │       favicon.ico
+│   │       index.html
+│   │       logo192.png
+│   │       logo512.png
+│   │       manifest.json
+│   │       robots.txt
+│   │
+│   └───src
+│       │   App.css
+│       │   App.js
+│       │   App.test.js
+│       │   index.css
+│       │   index.js
+│       │   logo.svg
+│       │   reportWebVitals.js
+│       │   setupTests.js
+│       │
+│       ├───Component
+│       │   ├───Buttons
+│       │   │       buttons.css
+│       │   │
+│       │   ├───HomePage
+│       │   │       homePage.css
+│       │   │       homePage.js
+│       │   │
+│       │   ├───Login
+│       │   │       login.css
+│       │   │       login.js
+│       │   │
+│       │   ├───Navbar
+│       │   │       navbar.css
+│       │   │       navbar.js
+│       │   │
+│       │   └───SideNavbar
+│       │           sideNavbar.css
+│       │           sideNavbar.js
+│       │
+│       └───Pages
+│           ├───Channel
+│           │       channel.css
+│           │       channel.js
+│           │
+│           ├───ChannelPage
+│           │       channelPage.css
+│           │       channelPage.js
+│           │
+│           ├───CreateChannel
+│           │       createChannel.css
+│           │       createChannel.js
+│           │
+│           ├───Home
+│           │       home.css
+│           │       home.js
+│           │
+│           ├───SignUp
+│           │       signUp.css
+│           │       signUp.js
+│           │
+│           ├───Video
+│           │       video.css
+│           │       video.js
+│           │
+│           └───VideoUpload
+│                   videoUpload.css
+│                   videoUpload.js
+│
+└───server
+    │   .env
+    │   index.js
+    │   Information.js
+    │   package-lock.json
+    │   package.json
+    │
+    ├───Connections
+    │       conn.js
+    │
+    ├───Controllers
+    │       channel.js
+    │       comment.js
+    │       user.js
+    │       video.js
+    │
+    ├───middleware
+    │       authentication.js
+    │
+    ├───Modals
+    │       channel.js
+    │       comment.js
+    │       user.js
+    │       video.js
+    │
+    └───Routes
+            channel.js
+            comment.js
+            user.js
+            video.js
