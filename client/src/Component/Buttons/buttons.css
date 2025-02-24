@@ -1,0 +1,32 @@
+/* src/Component/Buttons/Buttons.css */
+
+/* General Button Styles */
+.button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+/* Primary Button (Red Like YouTube) */
+.button-primary {
+    background: #ff0000;
+    color: white;
+    font-weight: bold;
+}
+
+.button-primary:hover {
+    background: #cc0000;
+}
+
+/* Secondary Button (Gray) */
+.button-secondary {
+    background: #333;
+    color: white;
+}
+
+.button-secondary:hover {
+    background: #555;
+}

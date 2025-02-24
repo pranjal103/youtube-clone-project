@@ -1,0 +1,53 @@
+.home-sideNavbar {
+    width: 240px;
+    background-color: #202020;
+    color: white;
+    height: calc(100vh - 56px); /* adjust if your navbar height differs */
+    position: fixed;
+    top: 56px;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 10px;
+  }
+  
+  .homeSideNavbarHide {
+    display: none;
+  }
+  
+  .home_sideNavbarTop,
+  .home_sideNavbarMiddle {
+    margin-bottom: 16px;
+  }
+  
+  .home_sideNavbarTopOption {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .home_sideNavbarTopOption:hover {
+    background-color: #383838;
+  }
+  
+  .home_sideNavbarTopOptionTitle {
+    margin-left: 16px;
+    font-size: 14px;
+  }
+  
+  .home_sideNavbarTopOptionTitleHeader {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 16px;
+    color: #b3b3b3;
+    text-transform: uppercase;
+  }
+  
+  .home_sideNavbar_ImgLogo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 16px;
+  }
+  
