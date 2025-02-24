@@ -56,5 +56,5 @@ This project is a full-stack YouTube clone built with the MERN (MongoDB, Express
 ### Installation Steps
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/pranjal103/youtube-clone-project.git
+   cd youtube-clone-project
